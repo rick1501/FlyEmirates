@@ -24,10 +24,11 @@ public class Buscarvuelos implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                Click.on(Seletbtn1),
-                Wait.until(10),
+                Wait.until(5),
                 Click.on(Seletbtn2),
-                Wait.until(10),
-                Click.on(Clickcont)
+                Wait.until(5),
+                Click.on(Clickcont),
+                Wait.until(20)
 
         );
 

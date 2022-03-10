@@ -15,4 +15,7 @@ public class HacerReservas extends PageObject {
 
     public static  final Target Clickcont = Target.the("CLASE")
             .located(By.xpath("//A[@id='ctl00_c_lnkContinue']"));
+
+    public static  final Target pasajeros = Target.the("CLASE")
+            .located(By.xpath("//a[contains(text(),'Introducir información del pasajero')]"));
 }
